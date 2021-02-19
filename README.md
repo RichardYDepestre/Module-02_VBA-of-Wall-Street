@@ -17,10 +17,9 @@ time. Here are the results:
     [Results and Metrics 2018 Stock data(refactored)](https://github.com/RichardYDepestre/stock-analysis/blob/main/vb_challenge_2018_after-regactoring.png)
 As an observation the refactored code improved runtime by 3 seconds.
 
-Summary:
+##Summary:
 What are the advantages or disadvantages of refactoring code?
-    - Refactoring helps pinpoint flaws of contructs in one's code. It offers great opportunity to improve mechanisms with metrics captured through execution. \In this challenge, I have included the 'DoEvents' keyword in areas where significant number crunching was taking place. The idea was to insure that calculations run to completion. I turns out that the addition of 'DoEvents' added a whoping 3 seconds to the overall execution of the code.
+    - Refactoring helps pinpoint flaws of contructs in one's code. It offers great opportunity to improve mechanisms with metrics captured through execution. In this challenge, I have included the 'DoEvents' keyword in areas where significant number crunching was taking place. The idea was to insure that calculations run to completion. I turns out that the addition of 'DoEvents' added a whoping 3 seconds to the overall execution of the code.
+    - Refactoring may foster greater collaboration 
 How do these pros and cons apply to refactoring the original VBA script?
-# Kickstarting with Excel
-  This project serves as an introduction to Data Analysis using Excel.\
-  We must analyze raw data about crowd-funded projects initiated all over the globe, and uncover any *hidden trends*.
+
