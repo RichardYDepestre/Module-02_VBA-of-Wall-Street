@@ -24,12 +24,12 @@ Since we were dealing with number crunching, I thought it would be prudent to ad
 
 ## Summary:
 Refactoring helps pinpoint flaws in complex code contructs that handle massive operations: looping, external data requests, application memory management, etc. It also offers an opportunity for technical leads to define coding patterns, design recommendations, compilation of application metrics, etc. for use throughout an IT division therefore making applications hightly maintainable. \
-Such an endeavor may not be welcomed by management as it comes with risks. Time consuming, introduction of defects, etc. are some of the risks associated with refactoring. \
+Such an endeavor may not be welcomed by management as it comes with risks. Time consuming, introduction of defects, etc. are some of the risks associated with refactoring.
 
 How do these pros and cons apply to refactoring the original VBA script?
 The first sets of metrics compiled indicated that the VBA_Challenge macro initially ran for 7 seconds. The first attempts at refactoring looked at the variable types. Using a variable of type long when single is more appropriate. Substituting Cells to Range when referencing areas of a worksheet. Activating a worksheet before using it. Revisiting 'For Loops'. These changes resulted in significantly reducing the run-time from 7 seconds to less than 1 second.
 This reduction in run-time required a lot of testing time, trying out other constructs. One can understand that refactoring may be frown upon as it requires time that may put in jeopardy delivery deadlines, application health etc.
 
-## Resources from the Web:
+### Resources from the Web:
 [Tutorialspoint](https://www.tutorialspoint.com/vba/vba_for_loop.html)
-
+[GitHub Docs](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#quoting-text)
