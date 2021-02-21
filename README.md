@@ -31,5 +31,5 @@ The first sets of metrics compiled indicated that the VBA_Challenge macro initia
 This reduction in run-time required a lot of testing time, trying out other constructs. One can understand that refactoring may be frown upon as it requires time that may put in jeopardy delivery deadlines, application health etc.
 
 ### Resources from the Web:
-[Tutorialspoint](https://www.tutorialspoint.com/vba/vba_for_loop.html)
+[Tutorialspoint](https://www.tutorialspoint.com/vba/vba_for_loop.html) \
 [GitHub Docs](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#quoting-text)
